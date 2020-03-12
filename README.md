@@ -12,6 +12,7 @@ Vorraussetzungen:
 Funktion der Skripte:
 
 get_started.sh: Vorbereitung des Systems, Installation aller nötigen Komponenten
+
 vertretungsplan.sh: Steuerung des fertigen Systems
 
 Detailierte Arklärungen zu allen Befehlen in den Skipten
@@ -28,4 +29,5 @@ Detailierte Arklärungen zu allen Befehlen in den Skipten
  Alles andere sollte nun selbstständig passieren. Nach ca. 5-10 Minuten sollte das System einsatzbereit sein und den Vertretungsplan anzeigen.
  
  Viel Spass!
+ 
  BeLeFu
