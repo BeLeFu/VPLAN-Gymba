@@ -33,3 +33,22 @@ Detailierte Arklärungen zu allen Befehlen in den Skipten
  Viel Spass!
  
  BeLeFu
+ 
+ 
+ # Zusatzinfos
+ 
+ Einrichtung Statische IP-Adresse:
+ 
+ sudo nano /etc/dhcpcd.conf
+ 
+ Display-Rotation: 
+ 
+ sudo nano /booz/config.txt
+
+Folgende Zeile einfügen:
+
+display rotate 1
+
+oder
+
+display rotate 3
