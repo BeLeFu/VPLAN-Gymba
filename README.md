@@ -23,7 +23,9 @@ Detailierte Arklärungen zu allen Befehlen in den Skipten
  Folgende Befehle im Terminal ausführen:
  
  sudo git clone https://github.com/BeLeFu/VPLAN-Gymba.git /
+ 
  cd /VPLAN
+ 
  ./installation.sh
  
  Alles andere sollte nun selbstständig passieren. Nach ca. 5-10 Minuten sollte das System einsatzbereit sein und den Vertretungsplan anzeigen.
