@@ -43,7 +43,7 @@ Detailierte Arklärungen zu allen Befehlen in den Skipten
  
  Display-Rotation: 
  
- sudo nano /booz/config.txt
+ sudo nano /boot/config.txt
 
 Folgende Zeile einfügen:
 
