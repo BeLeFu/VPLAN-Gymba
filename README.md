@@ -11,7 +11,7 @@ Vorraussetzungen:
 
 Funktion der Skripte:
 
-get_started.sh: Vorbereitung des Systems, Installation aller nötigen Komponenten
+installation.sh: Vorbereitung des Systems, Installation aller nötigen Komponenten
 
 vertretungsplan.sh: Steuerung des fertigen Systems
 
