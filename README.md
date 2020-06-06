@@ -22,7 +22,7 @@ Detailierte Arklärungen zu allen Befehlen in den Skipten
  
  Folgende Befehle im Terminal ausführen:
  
- sudo git clone https://github.com/BeLeFu/VPLAN-Gymba.git /VPLAN
+ sudo git clone https://github.com/BeLeFu/Vertretungsplan-Gymnasium-Ballenstedt.git /VPLAN
  
  cd /VPLAN
  
