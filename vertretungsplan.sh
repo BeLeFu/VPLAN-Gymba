@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# (c)2020 Bennet Fuchs
+
 xset -dpms # Deaktiviert Energiesparmaßnahmen
 xset s off # Deaktiviert den Bildschhirmschoner
 xset s noblank # Deaktiviert die Abdunklung des Bildschirms
