@@ -15,14 +15,30 @@ installation.sh: Vorbereitung des Systems, Installation aller nötigen Komponent
 
 vertretungsplan.sh: Steuerung des fertigen Systems
 
-Detailierte Arklärungen zu allen Befehlen in den Skipten
+Detailierte Erklärungen zu allen Befehlen in den Skipten
  - zum Lesen in einem Texteditor wie nano öffnen
  
  # Installationsanleitung
  
- Folgende Befehle im Terminal ausführen:
+ Neuste Debian-minimal Version von debian.com herunterladen
+ 
+ Mit einem Programm wie balenaEtcher die iso-Datei auf einen USB-Stick flashen
+ 
+ Debian vom USB-Stick installieren
+ 
+ Wenn alles funktioniert hat und Debian gestartet ist, sollte ein blinkender Cursor angezeigt werden. 
+ 
+ Wenn dem so ist, folgende Befehle im Terminal ausführen:
  
  sudo git clone https://github.com/BeLeFu/Vertretungsplan-Gymnasium-Ballenstedt.git /VPLAN
+ 
+ Wenn dieser Befehl einen Fehler ausgibt, dann diesen Befehl ausführen:
+ 
+ cd / && sudo mkdir /VPLAN
+ 
+ Danach den ersten Befehl nochmal versuchen
+ 
+ Wenn das funktioniert hat, das hier ausführen:
  
  cd /VPLAN
  
