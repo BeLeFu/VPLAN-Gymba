@@ -13,7 +13,7 @@ sudo rm /etc/rc.local # Löscht die Datei rc.local
 sudo mv /VPLAN/rc.local /etc/rc.local # Fügt unsere eigene rc.local - Datei ein
 
 # Zur Funktion der Datei rc.local:
-# Das Script rc.local wird während des Bootvorgangs ausgeführt und ist genau für unseren Gebrauch geeignet - Der AUsführung von Programmenn und Scripten direkt nach dem Booten - Vergleichbar mit der Autostart - Funktion von Windows.
+# Das Script rc.local wird während des Bootvorgangs ausgeführt und ist genau für unseren Gebrauch geeignet - Der Ausführung von Programmenn und Scripten direkt nach dem Booten - Vergleichbar mit der Autostart - Funktion von Windows.
 
 sudo mv /VPLAN/override.conf /etc/systemd/system/getty@tty1.service.d/ # Fügt unsere override.conf - Datei ein
 
