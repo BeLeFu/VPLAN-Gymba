@@ -3,11 +3,12 @@
 # (c)2020 Bennet Fuchs
 
 sudo apt update # Gleicht den Paketindex der bekannten Repositories mit ihren Servern ab
-sudo apt install unclutter xorg matchbox-window-manager -y # Installiert folgendes:
+sudo apt install unclutter xorg matchbox-window-manager xdotool -y # Installiert folgendes:
 
 # Unclutter - Programm zum Verstecken des Mauszeigers 
 # Xorg - Grafische Oberfläche
 # Matchbox - Einfacher und schneller Fenstermanager
+# xdotool - Programm zur Simulation von Tastatureingaben
 
 cd /VPLAN # Wechselt in das Verzeichnis /VPLAN
 
