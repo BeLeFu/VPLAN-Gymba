@@ -16,11 +16,11 @@ installation.sh: Vorbereitung des Systems, Installation aller nötigen Komponent
 vertretungsplan.sh: Steuerung des fertigen Systems
 
 Detailierte Erklärungen zu allen Befehlen in den Skipten
- - zum Lesen in einem Texteditor wie nano öffnen
+ - zum Lesen in einem Texteditor wie z.B. nano öffnen
  
  # Installationsanleitung
  
- Neuste Debian-minimal Version von debian.com herunterladen
+ Neuste Debian-minimal Version von www.debian.org herunterladen
  
  Mit einem Programm wie balenaEtcher die iso-Datei auf einen USB-Stick flashen
  
