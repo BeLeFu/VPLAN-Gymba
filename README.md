@@ -44,7 +44,16 @@ Detailierte Erklärungen zu allen Befehlen in den Skipten
  
  Danach den ersten Befehl nochmal versuchen
  
- Wenn das funktioniert hat, das hier ausführen:
+ Wenn das funktioniert hat, wird die "sudoers"-Datei durch die von github geladene ausgetauscht, damit der Benutzer vplan Administratorrechte bekommt. Das geht folgendermaßen:
+ 
+ rm /etc/sudoers
+ mv /VPLAN/sudoers /etc
+ 
+ Jetzt mit diesem Befehl wieder zurück zum Benuter vplan wechseln:
+ 
+ su vplan
+ 
+ Danach das hier ausführen:
  
  cd /VPLAN
  
