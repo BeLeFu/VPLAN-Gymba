@@ -26,11 +26,17 @@ Detailierte Erklärungen zu allen Befehlen in den Skipten
  
  Debian vom USB-Stick installieren
  
- Wenn alles funktioniert hat und Debian gestartet ist, sollte ein blinkender Cursor angezeigt werden. 
+ *Wichtig:* Bei der Installation als Benutzernamen vplan angeben!
  
- Wenn dem so ist, folgende Befehle im Terminal ausführen:
+ Wenn alles funktioniert hat und Debian gestartet ist, fragt das system nach Benutzernamen (login) und Passwort, die bei der Installation vergeben wurden. 
  
- sudo git clone https://github.com/BeLeFu/Vertretungsplan-Gymnasium-Ballenstedt.git /VPLAN
+ Nach der Anmeldung folgende Befehle ausführen:
+ 
+ su root (root-Passwort eingeben)
+ 
+ apt install sudo git -y
+ 
+ git clone https://github.com/BeLeFu/Vertretungsplan-Gymnasium-Ballenstedt.git /VPLAN
  
  Wenn dieser Befehl einen Fehler ausgibt, dann diesen Befehl ausführen:
  
